@@ -243,3 +243,29 @@ elif number==100:
     print("The number is equal to 100")
 else:
     print("The number is greater than 100")
+
+
+#     14.Logical Operator - AND
+
+# Output Format
+# Print the string.
+
+# Example 1
+# Input:
+#     35
+#     citizen
+# Output:
+#     You are eligible to vote.
+# Example 2
+# Input:
+#     23
+#     non-citizen
+# Output:
+#     You are not eligible to vote.
+
+age=int(input())
+citizen_status=input()
+if age>18 and citizen_status=="citizen":
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
