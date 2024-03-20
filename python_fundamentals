@@ -369,3 +369,19 @@ n=int(input())
 n1=int(input())
 for i in range(n,n1+1):
     print(i)
+
+#     19.WHILE-Loop
+#     Output Format
+# Print the string.
+
+# Example 1
+# Input:
+#     !dlroW ,olleH
+# Output:
+#     Hello, World!
+    rev_str=input()
+len=len(rev_str)
+while len>0:
+    print(rev_str[len-1],end="")
+    len-=1
+
