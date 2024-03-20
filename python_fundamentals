@@ -308,3 +308,43 @@ else:
 
 age=int(input())
 print(age*12)
+
+# 17.TRIANGLES
+# Output Format
+# Print the string.
+
+# Example 1
+# Input:
+#     5
+#     5
+#     3
+# Output:
+#     Isosceles triangle
+# Example 2
+# Input:
+#     3
+#     4
+#     5
+# Output:
+#     Scalene triangle
+# Example 3
+# Input:
+#     7
+#     4
+#     3
+# Output:
+#     Not a valid triangle!
+
+s1=int(input())
+s2=int(input())
+s3=int(input())
+if s1>=s2+s3 or s2>=s1+s3 or s3>=s2+s1:
+    print("Not a valid triangle!")
+elif s1<=0 or s2<=0 or s3<=0:
+    print("Not a valid triangle!")
+elif s1==s2==s3:
+    print("Equilateral triangle")
+elif s1!=s2!=s3:
+    print("Scalene triangle")
+else:
+    print("Isosceles triangle")
