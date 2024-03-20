@@ -19,3 +19,52 @@ num=int(input())
 b=3
 result=num+b
 print(result)
+
+# 3.SUBTRACTION OF TWO NUMBERS
+# Input:
+#     4
+# Output:
+#     1
+
+num=int(input())
+b=3
+result=num-b
+print(result)
+
+# 3.MULTIPLACTION OF TWO NUMBERS
+# Input:
+#     4
+# Output:
+#     12
+
+a=int(input())
+b=3
+result=a*b
+print(result)
+
+# 4.DIVISION OF TWO NUMBERS
+# Input:
+#     6
+# Output:
+#     2.0
+
+num=int(input())
+b=3
+result=num/b
+print(result)
+
+# 5.MODULUS ZeroDivision
+# Input:
+#     4
+# Output:
+#     1
+num=int(input())
+b=3
+result=num%b
+print(result)
+
+# 6.printing name
+# “Devsnest!!” 
+
+print("Devsnest!!")
+
