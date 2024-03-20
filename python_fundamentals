@@ -191,3 +191,27 @@ if num1!=num2:
     print(True)
 else:
     print(False)
+
+#     12.Comparison Operator - Greater Than
+#     Output Format
+# Print the string.
+
+# Example 1
+# Input:
+#     45
+#     30
+# Output:
+#     Student passed!
+# Example 2
+# Input:
+#     50
+#     70
+# Output:
+#     Student failed!
+
+score=int(input())
+threshold=int(input())
+if score>threshold:
+    print("Student passed!")
+else:
+    print("Student failed!")
