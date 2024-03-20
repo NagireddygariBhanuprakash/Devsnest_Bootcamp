@@ -295,3 +295,16 @@ if totalOrderAount>=50 or premiumMember=="True":
     print("You are eligible for free shipping.")
 else:
     print("You are not eligible for free shipping.")
+
+#     16.User Input - Integer
+#     Output Format
+# Print the number.
+
+# Example 1
+# Input:
+#     25
+# Output:
+#     300
+
+age=int(input())
+print(age*12)
