@@ -269,3 +269,29 @@ if age>18 and citizen_status=="citizen":
     print("You are eligible to vote.")
 else:
     print("You are not eligible to vote.")
+
+
+#     15.Logical Operator - OR
+
+# Output Format
+# Print the string.
+
+# Example 1
+# Input:
+#     300
+#     False
+# Output:
+#     You are eligible for free shipping.
+# Example 2
+# Input:
+#     21
+#     False
+# Output:
+#     You are not eligible for free shipping.
+
+totalOrderAount=int(input())
+premiumMember=input()
+if totalOrderAount>=50 or premiumMember=="True":
+    print("You are eligible for free shipping.")
+else:
+    print("You are not eligible for free shipping.")
