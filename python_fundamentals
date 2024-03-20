@@ -6,3 +6,13 @@
 
 user_name=input()
 print("Hello, "+user_name)
+
+# Input:
+#     4
+# Output:
+#     7
+
+num=int(input())
+b=3
+result=num+b
+print(result)
