@@ -101,7 +101,7 @@ if num2>num1:
     larger_no=num2
 print(larger_no)
 
-#CALCULATOR
+#9.CALCULATOR
 #Input:
 # EXAMPLE1
 #     add
@@ -146,7 +146,7 @@ else:
 print(result)
 
 
-# Comparison Operator - Equal To
+# 10.Comparison Operator - Equal To
 
 # Example 1
 # Input:
@@ -164,6 +164,30 @@ print(result)
 num1=int(input())
 num2=int(input())
 if num1==num2:
+    print(True)
+else:
+    print(False)
+
+# 11.    Comparison Operator - Not Equal To
+#     Output Format
+# Print the string.
+
+# Example 1
+# Input:
+#     4
+#     5
+# Output:
+#     True
+# Example 2
+# Input:
+#     9
+#     9
+# Output:
+#     False
+
+num1=int(input())
+num2=int(input())
+if num1!=num2:
     print(True)
 else:
     print(False)
