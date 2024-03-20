@@ -68,3 +68,19 @@ print(result)
 
 print("Devsnest!!")
 
+# #CONDITIONAL
+
+# Input:
+#     32
+#     11
+# Output:
+#     32
+
+num1=int(input())
+num2=int(input())
+larger_no=0
+if num1>num2:
+    larger_no=num1
+if num2>num1:
+    larger_no=num2
+print(larger_no)
