@@ -1,36 +1,36 @@
-# names_list=["shiva","mahadeva","ishvara","maheshvara","linga","nataraja","pashupatinath","bhairava",
-#        "ardhanari","chandrashekhara","somaskanda","neelakantha","trilochan","kedarnatha"]
-# bank_AC_nos=[1,2,3,4]#list of account numbers
+ names_list=["shiva","mahadeva","ishvara","maheshvara","linga","nataraja","pashupatinath","bhairava",
+        "ardhanari","chandrashekhara","somaskanda","neelakantha","trilochan","kedarnatha"]
+ bank_AC_nos=[1,2,3,4]#list of account numbers
 
-# name=input("name")
-# bank_AC_no=int(input("bank ac no"))
-
-
-# if bank_AC_no in bank_AC_nos and name in names_list:
-#     print("continue")
-# else:
-#     print("not a customer")
-# banking_operations=["loan","credit"]
-# print(banking_operations,"select the operation")
-# operation=input("operation")
-# if operation in banking_operations:
-#     print("continue") 
-# else:
-#     print("Back to menu")
+ name=input("name")
+ bank_AC_no=int(input("bank ac no"))
 
 
-# if operation=="loan":
+ if bank_AC_no in bank_AC_nos and name in names_list:
+     print("continue")
+ else:
+     print("not a customer")
+ banking_operations=["loan","credit"]
+ print(banking_operations,"select the operation")
+ operation=input("operation")
+ if operation in banking_operations:
+     print("continue") 
+ else:
+     print("Back to menu")
+
+
+ if operation=="loan":
 
  
     
-#     loan_amt=int(input("enter how much amount are you taking as loan?"))
-#     proof=int(input("enter the value of your documents:"))
-#     if proof>=loan_amt:   
-#         print(f"Mr/Mrs {name} your bank account number is:{bank_AC_no} as per records your loan amount is : Rs.{loan_amt} ")
-#     else:
-#         print("your property is deficiency to take loan amount ")
-# elif operation=="credit":
-#     if bank_AC_no==1 and name
+     loan_amt=int(input("enter how much amount are you taking as loan?"))
+     proof=int(input("enter the value of your documents:"))
+     if proof>=loan_amt:   
+         print(f"Mr/Mrs {name} your bank account number is:{bank_AC_no} as per records your loan amount is : Rs.{loan_amt} ")
+     else:
+         print("your property is deficiency to take loan amount ")
+ elif operation=="credit":
+     if bank_AC_no==1 and name
 
 
 
